@@ -1,0 +1,16 @@
+{
+  "name": "generador_traf",
+  "version": "2.0.0",
+  "description": "Generador de tráfico hacia el Cache Service (reescrito)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node --enable-source-maps index.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3"
+  }
+}
