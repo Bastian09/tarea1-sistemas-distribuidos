@@ -1,0 +1,17 @@
+# --- Core web & servidor ---
+uvicorn[standard]==0.30.6        # Servidor ASGI rápido
+fastapi==0.115.0                 # Framework principal para API
+
+# --- Manejo de datos y validación ---
+pydantic==2.9.2                  # Modelos y validaciones de datos
+
+# --- ORM / Base de datos ---
+SQLAlchemy==2.0.36               # ORM moderno y tipado
+psycopg[binary,pool]==3.2.3      # Driver PostgreSQL optimizado
+psycopg_pool==3.2.3              # Pool de conexiones async/await
+
+# --- Kafka & streaming ---
+aiokafka==0.10.0                 # Cliente Kafka asíncrono para Python
+
+# --- Serialización / rendimiento ---
+orjson==3.10.7                   # JSON ultrarrápido basado en Rust
